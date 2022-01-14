@@ -1,4 +1,4 @@
-# Rejuvena Tea
+# Rejuvena
 **Redefining tModLoader, one unfinished project at a time.**
 
 Rejuvena, as an organization is—to put it simply—a passion project made by [myself](https://tomat.dev) for two purposes:
