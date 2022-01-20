@@ -10,6 +10,9 @@ Everything here is made with the express goal of just having fun.
 ### [whisker](https://github.com/rejuvena/whisker)
 Designed for the collate toolchain (but by no means limited to Terraria modding), whisker is akin to [SpongePowered/Mixin](https://github.com/SpongePowered/Mixin), but for .NET. whisker is a trait/mixin weaving framework designed for modifying .NET IL code in a combined environment of compile-time *and* runtime.
 
+### [backscatter](https://github.com/rejuvena/backscattor)
+An advanced reflection library for .NET, with caching capabilities and ease-of-use features, aiming to provide a quality experience without forking over performance.
+
 ### [collate](https://github.com/rejuvena/collate)
 An alternative to the current tModLoader ModCompile environment, collate is a toolchain designed for developing Terraria mods with ease that has never been seen before.
 
