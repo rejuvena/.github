@@ -7,6 +7,21 @@ Rejuvena, as an organization is—to put it simply—a passion project made by [
 
 Everything here is made with the express goal of just having fun.
 
+Jump to:
+* [Mods](#mods)
+* [ModCompile Alternative](#modcompile-alternative)
+* [Mod Libraries/Utilities](#mod-librariesutilities)
+* [Terraprisma](#terraprisma)
+
+## Mods
+High quality mods for Terraria that just work.
+
+### [rejuvena](https://github.com/rejuvena/rejuvena)
+The main Terraria content mod we're working on.
+
+### [Ad Libitum](https://github.com/rejuvena/ad-libitum)
+A configurable Terraria quality of life mod.
+
 ## ModCompile Alternative
 A collection of projects that build a custom ModCompile toolchain.
 
@@ -31,10 +46,7 @@ A library for adding in custom modded liquids.
 
 <!-- Maybe move this to the toolchain? -->
 ### [build-configurer](https://github.com/rejuvena/build-configurer)
-Designed for the collate toolchain, build-configurer is a simple too for generating build.txt files.
-
-### [rejuvena](https://github.com/rejuvena/rejuvena)
-The actual Terraria mod we're working on.
+Designed for the collate toolchain, build-configurer is a simple tool for generating build.txt files.
 
 ## Terraprisma
 The bootstrapper project.
