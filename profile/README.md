@@ -1,55 +1,70 @@
 # Rejuvena
-**Redefining tModLoader, one unfinished project at a time.**
 
-Rejuvena, as an organization is—to put it simply—a passion project made by [myself](https://tomat.dev) for two purposes:
-1. Creating a custom mod development tool chain that improves development significantly.
-2. Creating a geuinely decent content mod for 1.4 to satiate people's hunger.
+> *Redefining tModLoader, one unfinished project at a time.*
 
-Everything here is made with the express goal of just having fun.
+---
 
-Jump to:
-* [Mods](#mods)
-* [ModCompile Alternative](#modcompile-alternative)
-* [Mod Libraries/Utilities](#mod-librariesutilities)
-* [Terraprisma](#terraprisma)
+We are a team of C# programmers and Terraria modders aiming to create and unique and interesting experience through mods. Many of our projects hold relevancy outside of Terraria, being capable of aiding people in the wider C# space. Put simply, Rejuvena is a passion project.
 
-## Mods
-High quality mods for Terraria that just work.
+Our three biggest goals for Terraria modding are:
+1. developing and fine-tuning a powerful ModCompile alternative ((rejuvena/collate)[https://github.com/rejuvena/collate]) to better convenience mod developers;
+2. craft a powerful base library mod that makes everyone's development jobs easier, with many abstractions, cross-version safety, and more;
+2. create a unique content mod for Terraria that focuses on the expansion of content and fleshing out of undeveloped vanilla ideas (and more, but that's where we're starting).
 
-### [rejuvena](https://github.com/rejuvena/rejuvena)
-The main Terraria content mod we're working on.
+Everything here is made with the express goal of just having fun and bettering the community.
 
-### [Ad Libitum](https://github.com/rejuvena/ad-libitum)
-A configurable Terraria quality of life mod.
+<details>
+  <summary>Mods</summary>
+  
+  ## Mods
+  
+  Mods for Terraria that simply just work, no questions asked.
+  
+  #### [rejuvena/rejuvena](https://github.com/rejuvena/rejuvena)
+  
+  The main 1.4 Terraria content mod that shares our namesake.
+  
+  #### [rejuvena/ad-libitum](https://github.com/rejuvena/ad-libitum)
+  
+  A configurability-focused do-it-all Terraria quality-of-life mod.
+  
+  ...
+</details>
 
-## ModCompile Alternative
-A collection of projects that build a custom ModCompile toolchain.
+<details>
+  <summary>Collate (ModCompile Alternative)</summary>
+  
+  ## Collate Build Toolchain
+  
+  A powerful, convenient alternative to the tModLoader build toolchain (ModCompile).
+  
+  #### [rejuvena/collate](https://github.com/rejuvena/collate)
+  
+  The main Collate project.
+  
+  ...
+</details>
 
-### [whisker](https://github.com/rejuvena/whisker)
-Designed for the collate toolchain (but by no means limited to Terraria modding), whisker is akin to [SpongePowered/Mixin](https://github.com/SpongePowered/Mixin), but for .NET. whisker is a trait/mixin weaving framework designed for modifying .NET IL code in a combined environment of compile-time *and* runtime.
-
-### [backscatter](https://github.com/rejuvena/backscatter)
-An advanced reflection library for .NET, with caching capabilities and ease-of-use features, aiming to provide a quality experience without forking over performance.
-
-### [collate](https://github.com/rejuvena/collate)
-An alternative to the current tModLoader ModCompile environment, collate is a toolchain designed for developing Terraria mods with ease that has never been seen before.
+<!-- <details>
+  <summary>Libraries TODO PUT THEM IN MODS IDK</summary>
+</details>
 
 ## Mod Libraries/Utilities
 Mod libraries and utility programs aiming to enhance mod development and programmer quality-of-life.
 
-### [tea-framework](https://github.com/rejuvena/tea-framework)
+#### [tea-framework](https://github.com/rejuvena/tea-framework)
 A framework for modding built on top of tModLoader, abstracts a lot of fickle features and implementations away in order to provide stability for modders. Adds in numerous additional features as well, which will be supported through updates that mods will not have to worry about.
 
-### [fluent](https://github.com/rejuvena/fluent)
+#### [fluent](https://github.com/rejuvena/fluent)
 **Currently postponed.**
 A library for adding in custom modded liquids.
 
-<!-- Maybe move this to the toolchain? -->
-### [build-configurer](https://github.com/rejuvena/build-configurer)
+#### [build-configurer](https://github.com/rejuvena/build-configurer)
 Designed for the collate toolchain, build-configurer is a simple tool for generating build.txt files.
 
+TODO: Terraprisma is DEAD.
 ## Terraprisma
 The bootstrapper project.
 
-### [terraprisma](https://github.com/rejuvena/terraprisma)
-A bootstrapper designed for single-loading advanced patch-heavy mods. Similar to injecting mods such as OptiFine for Minecraft. These are capable of transforming the entire game prior to the assembly being properly loaded.
+#### [terraprisma](https://github.com/rejuvena/terraprisma)
+A bootstrapper designed for single-loading advanced patch-heavy mods. Similar to injecting mods such as OptiFine for Minecraft. These are capable of transforming the entire game prior to the assembly being properly loaded. -->
